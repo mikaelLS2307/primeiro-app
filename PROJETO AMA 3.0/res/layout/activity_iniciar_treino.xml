@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30px"
+    tools:context=".iniciar_treino">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="216dp"
+        android:layout_height="184dp"
+        android:layout_below="@id/tvTimer"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-268dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/agachamento" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="10:00"
+        android:textSize="37sp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimer"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#720052"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimer"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-117dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toEndOf="@id/btnStart"
+        android:textColor="@color/white"
+        android:backgroundTint="#720052"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimer"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-242dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#720052"
+        android:text="Reset" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Agachamentos: Fique em pé com os pés na largura dos ombros. Flexione os joelhos, abaixe o corpo como se fosse sentar em uma cadeira. Mantenha as costas retas e os joelhos alinhados com os tornozelos. Volte à posição inicial."
+        android:textSize="7pt" />
+
+
+</RelativeLayout>
+
+

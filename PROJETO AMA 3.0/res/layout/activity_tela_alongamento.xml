@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30px"
+    android:backgroundTint="@color/white">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/nomeappdicas"
+            android:layout_width="293dp"
+            android:layout_height="46dp"
+            android:text="AMA - Seu personal digital"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity=""/>
+
+
+
+
+        <Button
+            android:id="@+id/btvoltainicial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_toRightOf="@+id/nomeappdicas"
+            android:text="Voltar"
+            android:backgroundTint="#720052"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="117dp"
+                    android:gravity="center"
+                    android:text="Alongamentos"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      A prática dos exercícios de alongamento antes dos treinos poderá oferecer maior amplitude e flexibilidade nos movimentos. Seus treinos poderão ter melhor rendimento e serão realizados com mais segurança."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pescoço e Ombros:"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Inclinação Lateral do Pescoço: Incline a cabeça para um lado, levando a orelha em direção ao ombro. Segure suavemente por 15-30 segundos e repita para o outro lado."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+
+            <ImageView
+                android:layout_width="288dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pescoco" />
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="       Rotação do Pescoço: Gire lentamente a cabeça para um lado e depois para o outro, mantendo os movimentos suaves e controlados."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+
+            <ImageView
+                android:layout_width="288dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pescoco2" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Costas:"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Inclinação para Frente e para Trás: Sente-se no chão, estenda as pernas e incline-se para frente, tentando tocar os dedos dos pés. Em seguida, incline-se para trás, arqueando as costas levemente."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="181dp"
+                    android:layout_height="172dp"
+                    android:src="@drawable/costas" />
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="181dp"
+                    android:layout_height="172dp"
+                    android:src="@drawable/costas2" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pernas:"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Agachamento Profundo: Fique em pé com os pés afastados na largura dos ombros. Agache-se lentamente, mantendo os calcanhares no chão, até suas coxas ficarem paralelas ao chão. Mantenha a posição por alguns segundos e depois retorne à posição inicial."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pernas" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Agachamento Profundo: Fique em pé com os pés afastados na largura dos ombros. Agache-se lentamente, mantendo os calcanhares no chão, até suas coxas ficarem paralelas ao chão. Mantenha a posição por alguns segundos e depois retorne à posição inicial."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pernas2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Braços e Tronco:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Alongamento do Tríceps: Estenda um braço para cima e dobre o cotovelo, levando a mão em direção às costas. Com a mão oposta, empurre suavemente o cotovelo para baixo. Troque de braço."
+                android:textAlignment="textStart"
+                android:textSize="6pt"/>
+
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bracos" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Torção da Coluna: Sente-se no chão, cruze uma perna sobre a outra. Gire o tronco na direção da perna cruzada, colocando o braço oposto no joelho cruzado. Mantenha a posição por alguns segundos e troque de lado."
+                android:textAlignment="textStart"
+                android:textSize="6pt"/>
+
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bracos2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Quadris e Glúteos:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="       Pose do Gato-Vaca: Comece na posição de quatro apoios (quadrúpede). Arqueie a coluna para cima (gato) e depois arqueie para baixo (vaca), alternando entre as duas posições."
+                android:textSize="6pt"
+                android:textAlignment="textStart"/>
+
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/quadris" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tornozelos e Pés:"
+                android:textStyle="bold"
+                android:textSize="7pt"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="     Rotação do Tornozelo: Sentado ou em pé, mova os tornozelos em círculos no sentido horário e anti-horário para aumentar a mobilidade."
+                android:textSize="6pt"
+                android:textAlignment="textStart"/>
+
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tornozelos" />
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</LinearLayout>

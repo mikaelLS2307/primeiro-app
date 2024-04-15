@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10px"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="244dp"
+        android:src="@drawable/img_ama"
+        android:id="@+id/imgcadastro"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="AMA - CADASTRO"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblnome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nome" />
+
+            <EditText
+                android:id="@+id/txtnome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lblemailcadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/txtemailcadastro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/lblsenhacadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senha" />
+
+            <EditText
+                android:id="@+id/txtsenhacadastro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/lblconfsenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirme a senha:"/>
+
+            <EditText
+                android:id="@+id/txtconfsenha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+
+            <Button
+                android:id="@+id/btfinalizarcad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20px"
+                android:backgroundTint="#63007E"
+                android:text="Finalizar Cadastro"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

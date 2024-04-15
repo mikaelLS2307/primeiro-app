@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30px"
+    android:backgroundTint="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nomeappdicas"
+            android:layout_width="293dp"
+            android:layout_height="46dp"
+            android:text="AMA - Seu personal digital"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btvoltainicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_toRightOf="@+id/nomeappdicas"
+        android:text="Voltar"
+        android:backgroundTint="#720052"
+        android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp">
+
+        <View
+            android:id="@+id/bordas"
+            android:layout_width="449dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:background="@drawable/background_borda" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20px"
+            android:text="  Tenha uma boa alimentação para ajudar nos treinos"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dicas de Alimentação"
+                android:textAlignment="center"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Uma alimentação saudável e equilibrada é fundamental para manter um estilo de vida saudável. Aqui estão algumas dicas gerais para uma alimentação nutritiva:"
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Variedade e Equilíbrio:"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Inclua uma variedade de alimentos em sua dieta para garantir que você obtenha uma ampla gama de nutrientes."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Equilibre carboidratos, proteínas, gorduras saudáveis, vitaminas, minerais e fibras em suas refeições."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+            <ImageView
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img1ali" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Frutas e Vegetais:"
+                android:textSize="7pt"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Consuma pelo menos 5 porções de frutas e vegetais por dia. São ricos em vitaminas, minerais e antioxidantes essenciais para a saúde."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+            <ImageView
+                android:layout_width="302dp"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img2ali" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Grãos Integrais:"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Opte por grãos integrais, como arroz integral, quinoa, aveia e pães integrais, em vez de grãos refinados para obter fibras e nutrientes adicionais."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+            <ImageView
+                android:layout_width="309dp"
+                android:layout_height="151dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img3ali" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Proteínas Magras"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Inclua fontes de proteínas magras, como peixes, frango sem pele, legumes, ovos e leguminosas (feijões, lentilhas, grão-de-bico)."
+                android:textAlignment="textStart"
+                android:textSize="6pt" />
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img4ali" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Gorduras Saudáveis:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Escolha gorduras saudáveis, como azeite de oliva, nozes, sementes, abacate e peixes gordurosos, pois são benéficas para o coração e o cérebro."
+                android:textAlignment="textStart"
+                android:textSize="6pt"/>
+
+            <ImageView
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img5ali" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Laticínios com baixo teor de gordura:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Opte por laticínios com baixo teor de gordura ou alternativas como leites vegetais enriquecidos."
+                android:textAlignment="textStart"
+                android:textSize="6pt"/>
+
+            <ImageView
+                android:layout_width="334dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img6ali" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Limitação de Açúcares e Sal:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Reduza o consumo de alimentos e bebidas com alto teor de açúcares adicionados e evite o consumo excessivo de sal."
+                android:textSize="6pt"
+                android:textAlignment="textStart"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img7ali"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hidratação:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Beba bastante água ao longo do dia para manter-se hidratado. Evite bebidas açucaradas e com alto teor de cafeína."
+                android:textSize="6pt"
+                android:textAlignment="textStart"/>
+
+            <ImageView
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img8ali" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Porções Controladas:"
+                android:textStyle="bold"
+                android:textSize="7pt"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Controle as porções para evitar excessos. Use pratos menores e escute os sinais de fome e saciedade do seu corpo."
+                android:textSize="6pt"
+                android:textAlignment="textStart"/>
+
+            <ImageView
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img9ali" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Planejamento de Refeições:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Planeje suas refeições com antecedência para garantir escolhas saudáveis e evitar recorrer a opções pouco saudáveis de última hora."
+                android:textAlignment="textStart"
+                android:textSize="6pt"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img10ali"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Café da manhã nutritivo:"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Não pule o café da manhã e opte por refeições nutritivas que incluam proteínas, grãos integrais e frutas."
+                android:textSize="6pt"
+                android:textAlignment="textStart"/>
+
+            <ImageView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img11ali" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Moderação e estilo de vida ativo:"
+                android:textStyle="bold"
+                android:textSize="7pt"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Desfrute de alimentos indulgentes com moderação e combine uma dieta saudável com atividade física regular."
+                android:textSize="6pt"
+                android:textAlignment="textStart"/>
+
+            <ImageView
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/img12ali" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="      Lembre-se de que cada pessoa é única, então é importante adaptar essas recomendações à sua situação pessoal, necessidades e preferências. Se tiver preocupações sobre sua alimentação, considere consultar um nutricionista ou profissional de saúde para orientações específicas."
+                android:textSize="7pt"
+                android:textAlignment="textStart"
+                android:layout_marginTop="30dp"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

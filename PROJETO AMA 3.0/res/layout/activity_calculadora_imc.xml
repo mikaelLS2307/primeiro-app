@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="30px"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_ama"
+            android:layout_margin="20px"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:text="Calcule seu IMC"
+            android:textColor="#720052"
+            android:textSize="20pt"
+            android:textStyle="normal" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/textView_peso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:text="Coloque aqui se peso em Kg"/>
+
+
+                <EditText
+                    android:id="@+id/editText_peso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:backgroundTint="#720052"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView_altura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:text="Coloque aqui sua altura em Mt"/>
+
+                <EditText
+                    android:id="@+id/editText_altura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:backgroundTint="#720052"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#720052"
+            android:text="Calcular"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_resultadoIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
